@@ -76,6 +76,11 @@ h2 {
 
 .tecno-productos {
   width: 20rem;
+  transition: transform 0.5s;
+}
+
+.tecno-productos:hover {
+  transform: scale(1.03);
 }
 
 .lanzamientos {
@@ -98,6 +103,19 @@ h2 {
 
 .noticia {
   width: 40rem;
+  transition: transform 0.5s;
+}
+
+.noticia:hover {
+  transform: scale(1.03);
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+button {
+  transform: 0.5;
 }
 
 footer {

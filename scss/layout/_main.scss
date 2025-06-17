@@ -6,6 +6,10 @@ h2{
 }
 .tecno-productos{
   width: 20rem;
+  transition: transform 0.5s;
+}
+.tecno-productos:hover{
+  transform: scale(1.03);
 }
 .lanzamientos{
   width: 40rem;
@@ -26,4 +30,14 @@ justify-content: space-between;
 
 .noticia{
   width: 40rem;
+  transition: transform 0.5s;
+}
+.noticia:hover{
+  transform: scale(1.03);
+}
+button:hover{
+  transform: scale(1.03);
+}
+button{
+  transform: 0.5;
 }
