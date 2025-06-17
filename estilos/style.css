@@ -1,120 +1,131 @@
-/* estilos generales*/
-*{
-  font-family: 'Times New Roman', Times, serif;
+.HeaderTecnologias, .HeaderLanzamientos, .HeaderNoticias, .HeaderIndex {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  height: 60vh;
 }
-.transicion:hover{
-  color: rgb(255, 255, 0);
-}
-.transicion{
-  transition: color 0.3;
-}
-/* header*/
-h1{
+
+h1 {
   font-size: 100px;
-  color: rgb(220 53 69);
+  color: rgb(220, 53, 69);
   border-radius: 5px;
   text-align: center;
   text-decoration: underline;
 }
-#navbarSupportedContent{
+
+#navbarSupportedContent {
   margin: 40px;
 }
-.Logo{
-width: 5rem;
-border-radius: 50%;
-height: 5rem;
-object-fit: cover;
-margin: 30px;
+
+.Logo {
+  width: 5rem;
+  border-radius: 50%;
+  height: 5rem;
+  object-fit: cover;
+  margin: 30px;
 }
-.fondo{
+
+.fondo {
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.534);
 }
-.textoBajo{
+
+.textoBajo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.HeaderIndex{
-background-image: url(../img/inicioBack.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-position: relative;
-background-attachment: fixed;
-height: 60vh;
+
+.HeaderIndex {
+  background-image: url(../img/inicioBack.jpg);
 }
-.HeaderNoticias{
-background-image: url(../img/noticiasBack.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-position: relative;
-background-attachment: fixed;
-height: 60vh;
+
+.HeaderNoticias {
+  background-image: url(../img/noticiasBack.jpg);
 }
-.HeaderLanzamientos{
-background-image: url(../img/lanzamientosBack.webp);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-position: relative;
-background-attachment: fixed;
-height: 60vh;
+
+.HeaderLanzamientos {
+  background-image: url(../img/lanzamientosBack.webp);
 }
-.HeaderTecnologias{
-background-image: url(../img/tecnologiasBack.webp);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-position: relative;
-background-attachment: fixed;
-height: 60vh;
+
+.HeaderTecnologias {
+  background-image: url(../img/tecnologiasBack.webp);
 }
-.contenedor{
+
+.contenedor {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-ul{
+
+ul {
   list-style: none;
   display: flex;
   gap: 20px;
   justify-content: center;
 }
-/* Main*/
-h2{
+
+h2 {
   text-decoration: underline;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 40px;
 }
-.tecno-productos{
+
+.tecno-productos {
   width: 20rem;
 }
-.lanzamientos{
+
+.lanzamientos {
   width: 40rem;
 }
-.tecno-productos button{
+
+.tecno-productos button {
   background-color: rgb(0, 0, 0);
-  color: rgb(220 53 69);
+  color: rgb(220, 53, 69);
   padding: 0.3rem 6.4rem;
   margin-bottom: 1rem;
 }
 
-.cuadros{
-display: flex;
-flex-wrap: wrap;
-gap: 1rem;
-justify-content: space-between;
+.cuadros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
 }
 
-.noticia{
+.noticia {
   width: 40rem;
 }
-/* footer*/
-footer p{
-  text-align: center;
+
+footer {
   background-color: rgb(0, 0, 0);
-  color: rgb(220 53 69);
 }
+
+footer p {
+  text-align: center;
+  color: rgb(220, 53, 69);
+  padding: 0.5rem;
+}
+
+.logoRedes {
+  width: 5rem;
+  height: 3rem;
+  object-fit: cover;
+}
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.transicion:hover {
+  color: rgb(255, 255, 0);
+}
+
+.transicion {
+  transition: color 0.3;
+}
+
+/*# sourceMappingURL=style.css.map */

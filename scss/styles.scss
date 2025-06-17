@@ -1,0 +1,15 @@
+@import "./utilities/variables";
+@import "./utilities/extends";
+@import "./layout/header";
+@import "./layout/main";
+@import "./layout/footer";
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+.transicion:hover{
+  color: rgb(255, 255, 0);
+}
+.transicion{
+  transition: color 0.3;
+}
