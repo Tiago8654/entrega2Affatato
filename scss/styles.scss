@@ -13,3 +13,18 @@
 .transicion{
   transition: color 0.3;
 }
+.navbar-collapse.show ~ .overlay-texto {
+  opacity: 0;
+  pointer-events: none;
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; 
+}

@@ -26,11 +26,13 @@ display: flex;
 flex-wrap: wrap;
 gap: 1rem;
 justify-content: space-between;
+padding: 7.5px;
 }
 
 .noticia{
   width: 40rem;
   transition: transform 0.5s;
+  padding: 3.5px;
 }
 .noticia:hover{
   transform: scale(1.03);
